@@ -11,8 +11,8 @@ def write():
     st.title("Collection Efficiency for Pilot Regions")
     st.markdown("Welcome! Please select from the filters in the sidebar to the left of your screen to narrow down your search within the log analysis tool.")
 
-    df = pd.read_csv(r'\CollectionEff_Pilot.csv',index_col=False)
-    df1 = pd.read_csv(r'\Collection_NonPilot.csv',index_col=False)
+    df = pd.read_csv(r'CollectionEff_Pilot.csv',index_col=False)
+    df1 = pd.read_csv(r'Collection_NonPilot.csv',index_col=False)
     #df['FCE%'] = df['FCE%'].str.rstrip("%").astype(float)/100*100
     #df['Collection Efficiency'] = df['Collection Efficiency'].str.rstrip("%").astype(float)/100*100
     #df['Resolution'] = df['Resolution'].str.rstrip("%").astype(float)/100*100
